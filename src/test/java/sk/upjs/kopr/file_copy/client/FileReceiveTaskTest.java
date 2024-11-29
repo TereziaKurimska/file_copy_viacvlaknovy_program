@@ -8,10 +8,8 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.file.Files;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicLong;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -27,6 +25,8 @@ class FileReceiveTaskTest {
 	private int serverPort = Server.SERVER_PORT;
 	private FileInfo fileInfo;
 	private File file;
+
+	private AtomicLong[] progressArray;
 	
 	public FileReceiveTaskTest() throws UnknownHostException {
 		fileInfo = FileInfoReceiver.getLocalhostServerFileInfo();
@@ -53,9 +53,10 @@ class FileReceiveTaskTest {
 	@Test
 	void testReceiveWholeFile() {
 		ExecutorService executorService = Executors.newSingleThreadExecutor();
+		CountDownLatch latch = new CountDownLatch(1);
 		try {
 			
-			FileReceiveTask task = new FileReceiveTask(file, fileInfo.size, 0, fileInfo.size, inetAddress, serverPort);
+			FileReceiveTask task = new FileReceiveTask(file, fileInfo.size, 0, fileInfo.size, inetAddress, serverPort, latch);
 			Future<Void> future = executorService.submit(task);
 			try {
 				future.get();

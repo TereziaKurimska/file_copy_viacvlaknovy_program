@@ -12,8 +12,8 @@ import java.util.concurrent.Executors;
 public class Server {
 
 	public static final int SERVER_PORT = 5000;
-	public static final File FILE_TO_SHARE = new File("___INSERT SOME cca 1GB FILE___");
-	
+	public static final File FILE_TO_SHARE = new File("C:/Users/terez/Desktop/kopr/dow/kopr.exe");
+
 	public static void main(String[] args) throws IOException {
 		ExecutorService executor = Executors.newCachedThreadPool();
 		if (! FILE_TO_SHARE.exists() || ! FILE_TO_SHARE.isFile()) {
@@ -31,7 +31,7 @@ public class Server {
 				executor.submit(fileSendTask);
 			}
 		}
-		
+
 	}
 
 }
