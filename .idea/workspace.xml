@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ddd69352-5465-4c8c-90d5-12905399b166" name="Changes" comment="changes for multithread program">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/FileInfoReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/FileInfoReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/FileReceiveTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/FileReceiveTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/MyFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/client/MyFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/server/FileSendTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/server/FileSendTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/upjs/kopr/file_copy/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sk/upjs/kopr/file_copy/client/FileReceiveTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sk/upjs/kopr/file_copy/client/FileReceiveTaskTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oOJfhvovl2Z6veaPzu4lzOyf8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClientApp.executor": "Run",
+    "Application.ClientGUI (1).executor": "Run",
+    "Application.ClientGUI.executor": "Run",
+    "Application.EnhancedFileServer.executor": "Run",
+    "Application.FileClient.executor": "Run",
+    "Application.Server.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.file_copy [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/terez/Downloads/file_copy_heny/file_copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42068964",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\terez\IdeaProjects\file_copy\src\main\resources\sk\upjs\kopr\file_copy\client" />
+      <recent name="C:\Users\terez\IdeaProjects\file_copy\src\main\resources\sk\upjs\kopr\file_copy" />
+      <recent name="C:\Users\terez\IdeaProjects\file_copy\src\main\java\sk\upjs\kopr\file_copy\client" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sk.upjs.kopr.file_copy.client" />
+      <recent name="sk.upjs.kopr.file_copy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Starter">
+    <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sk.upjs.kopr.file_copy.client.ClientApp" />
+      <module name="file_copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.upjs.kopr.file_copy.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhancedFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.upjs.kopr.file_copy.server.EnhancedFileServer" />
+      <module name="file_copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.upjs.kopr.file_copy.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.upjs.kopr.file_copy.client.FileClient" />
+      <module name="file_copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.upjs.kopr.file_copy.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.upjs.kopr.file_copy.server.Server" />
+      <module name="file_copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.upjs.kopr.file_copy.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Starter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.upjs.kopr.file_copy.client.Starter" />
+      <module name="file_copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.upjs.kopr.file_copy.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Starter" />
+      <item itemvalue="Application.EnhancedFileServer" />
+      <item itemvalue="Application.ClientApp" />
+      <item itemvalue="Application.FileClient" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.EnhancedFileServer" />
+        <item itemvalue="Application.ClientApp" />
+        <item itemvalue="Application.FileClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-azul-21.0.2-4caba194b151-38275579" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddd69352-5465-4c8c-90d5-12905399b166" name="Changes" comment="" />
+      <created>1730734794679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730734794679</updated>
+      <workItem from="1730734796044" duration="860000" />
+      <workItem from="1730882735418" duration="8000" />
+      <workItem from="1731586066579" duration="8812000" />
+      <workItem from="1731851049201" duration="129000" />
+      <workItem from="1731945209962" duration="978000" />
+      <workItem from="1732030977042" duration="4994000" />
+      <workItem from="1732129726675" duration="24000" />
+      <workItem from="1732142457057" duration="758000" />
+      <workItem from="1732288355776" duration="2592000" />
+      <workItem from="1732291676412" duration="45328000" />
+      <workItem from="1732562636864" duration="25103000" />
+      <workItem from="1732625522613" duration="1440000" />
+      <workItem from="1732722201101" duration="6182000" />
+      <workItem from="1732736118050" duration="31582000" />
+      <workItem from="1732885934372" duration="459000" />
+      <workItem from="1732901315258" duration="922000" />
+    </task>
+    <task id="LOCAL-00001" summary="changes for multithread program">
+      <option name="closed" value="true" />
+      <created>1732902253298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732902253298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes for multithread program" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes for multithread program" />
+  </component>
+</project>
